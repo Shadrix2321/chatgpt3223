@@ -1,0 +1,13 @@
+/* Graphics effects are optional; UI stays legible on small framebuffer presets. */
+body[data-graphics="low"] .grain,
+body[data-graphics="ultraLow"] .grain { display: none; }
+body[data-graphics="low"] *,
+body[data-graphics="ultraLow"] * { backdrop-filter: none !important; }
+body[data-graphics="ultraLow"] .vignette { display: none; }
+body[data-graphics="ultraLow"] .night-intro-mist { animation: none; }
+.graphics-note { display:block; margin-top:14px; color:var(--muted); font-size:10px; line-height:1.65; }
+#quality, #fpsLimit { max-width:60%; }
+#pauseButton { pointer-events: auto; }
+@media (prefers-reduced-motion: reduce) {
+  .grain, .night-intro-mist { animation: none; }
+}

@@ -1,0 +1,330 @@
+{
+  "game": "Son Koridor",
+  "version": "2.0.0",
+  "engine": "PlayCanvas 2.23.3",
+  "verifiedAt": "2026-10-22T11:09:58.973821+00:00",
+  "originalUntouched": true,
+  "verifiedOriginalFiles": 152,
+  "nodeTests": {
+    "passed": 30,
+    "failed": 0,
+    "command": "npm test"
+  },
+  "browser": {
+    "passed": 17,
+    "failed": 0,
+    "runtimeErrors": [],
+    "checks": [
+      {
+        "name": "Actual PlayCanvas menu loaded",
+        "passed": true
+      },
+      {
+        "name": "Graphics preset high",
+        "passed": true
+      },
+      {
+        "name": "Graphics preset medium",
+        "passed": true
+      },
+      {
+        "name": "Graphics preset low",
+        "passed": true
+      },
+      {
+        "name": "Graphics preset ultraLow",
+        "passed": true
+      },
+      {
+        "name": "Solo personal shopping list",
+        "passed": true
+      },
+      {
+        "name": "Night 01",
+        "passed": true
+      },
+      {
+        "name": "Normal keyboard movement",
+        "passed": true,
+        "meters": 7.69
+      },
+      {
+        "name": "C lowers camera through basket grid",
+        "passed": true,
+        "cameraY": 1.0500000005721335
+      },
+      {
+        "name": "Map keyboard toggle",
+        "passed": true
+      },
+      {
+        "name": "Pause menu opens",
+        "passed": true
+      },
+      {
+        "name": "Graphics preference survives reload",
+        "passed": true
+      },
+      {
+        "name": "Five digit room created",
+        "passed": true
+      },
+      {
+        "name": "Guest joins via relay with WebRTC blocked",
+        "passed": true
+      },
+      {
+        "name": "Two player authoritative night starts",
+        "passed": true
+      },
+      {
+        "name": "Separate personal lists",
+        "passed": true
+      },
+      {
+        "name": "No uncaught browser errors",
+        "passed": true,
+        "errors": []
+      }
+    ]
+  },
+  "renderer": {
+    "checks": [
+      {
+        "name": "Locust GLB remains upright at intended scale",
+        "passed": true,
+        "height": 4.413508268262962,
+        "width": 1.088281793725237,
+        "depth": 1.2654356931327868
+      },
+      {
+        "name": "Blackout darkens the actual world in very-low mode",
+        "passed": true,
+        "normal": 62.48951751207729,
+        "blackout": 16.543707125603863
+      },
+      {
+        "name": "Flashlight illuminates the world in very-low mode",
+        "passed": true,
+        "mean_pixel_difference": 69.27018417874396
+      },
+      {
+        "name": "Reduced-resolution markers stay centered in CSS pixels",
+        "passed": true,
+        "x": 640,
+        "y": 360.0000030899048,
+        "z": 10
+      },
+      {
+        "name": "No renderer runtime errors",
+        "passed": true,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "renderer": {
+      "engine": "PlayCanvas",
+      "engineVersion": "2.23.3",
+      "preset": "ultraLow",
+      "activeQuality": "ultraLow",
+      "requestedQuality": "ultraLow",
+      "width": 800,
+      "height": 450,
+      "calls": 20,
+      "triangles": 19534,
+      "visibleChunks": 11,
+      "frameEMA": 28.853040459058104,
+      "renderedFrames": 36,
+      "fpsLimit": 30,
+      "renderScale": 0.625,
+      "basket": {
+        "handleY": 1.4,
+        "gridBottomY": 0.49,
+        "gridTopY": 1.24,
+        "groundAnchored": true
+      },
+      "flashlightActive": true,
+      "blackout": true
+    }
+  },
+  "animatedLocustClips": {
+    "Idle": [
+      {
+        "height": 4.413213940291166,
+        "width": 1.0893267955121897,
+        "depth": 1.2664627134898012,
+        "bottom": -0.0002634793476072872
+      },
+      {
+        "height": 4.4077420066166315,
+        "width": 1.0951368581268563,
+        "depth": 1.2808778584193874,
+        "bottom": -0.00019868806032352637
+      },
+      {
+        "height": 4.403605228745961,
+        "width": 1.0986352642669543,
+        "depth": 1.2912913475543917,
+        "bottom": -0.00010824985677437837
+      },
+      {
+        "height": 4.405814670768527,
+        "width": 1.096928840647825,
+        "depth": 1.2790905288675276,
+        "bottom": -0.0012949669401365327
+      }
+    ],
+    "Walk": [
+      {
+        "height": 4.182544707522136,
+        "width": 1.0548240412859342,
+        "depth": 1.7869489241270458,
+        "bottom": -0.25622316836033665
+      },
+      {
+        "height": 4.2100857343160385,
+        "width": 1.0508501234468073,
+        "depth": 1.376179746864068,
+        "bottom": -0.25228030183653694
+      },
+      {
+        "height": 4.274249672391826,
+        "width": 1.0620539865191962,
+        "depth": 1.7029108265512605,
+        "bottom": -0.260023681408617
+      },
+      {
+        "height": 4.280960226585434,
+        "width": 1.0620371456778241,
+        "depth": 1.9468441104747285,
+        "bottom": -0.26126771507756796
+      }
+    ],
+    "Run": [
+      {
+        "height": 3.8545939392649067,
+        "width": 1.0811055108868157,
+        "depth": 1.7707197620051147,
+        "bottom": -0.2947509261054475
+      },
+      {
+        "height": 3.749225141093913,
+        "width": 1.1209307596977545,
+        "depth": 2.2238333383160693,
+        "bottom": -0.25707835015969316
+      },
+      {
+        "height": 4.104369348148773,
+        "width": 1.0791999809374664,
+        "depth": 2.1546920592239758,
+        "bottom": -0.24829592331745154
+      },
+      {
+        "height": 3.867243660792351,
+        "width": 1.0836897291853833,
+        "depth": 1.9201599743975635,
+        "bottom": -0.3042765083670185
+      }
+    ],
+    "Jumpscare": [
+      {
+        "height": 3.9952763996614626,
+        "width": 1.337627172185179,
+        "depth": 2.4151493945413733,
+        "bottom": -0.00021854090764072964
+      },
+      {
+        "height": 3.8893753339243284,
+        "width": 2.703738619195179,
+        "depth": 3.3091964719440057,
+        "bottom": 0.0008094289616349393
+      },
+      {
+        "height": 4.388225815021608,
+        "width": 1.0716624600704643,
+        "depth": 3.7911227739780315,
+        "bottom": -0.009263213003864124
+      },
+      {
+        "height": 4.067525229331661,
+        "width": 1.7938281341221682,
+        "depth": 2.4405943267642556,
+        "bottom": 0.004236982986864035
+      }
+    ]
+  },
+  "performance": {
+    "method": "Chromium SwiftShader, software rendering on the same cloud machine; different quality presets and nondeterministic room positions; not a physical old-PC benchmark",
+    "viewport": "1280x720",
+    "originalReference": "/workspace/backups/original-baseline.json",
+    "newFrameSamples": [
+      {
+        "fps": 12,
+        "p95Ms": 333,
+        "calls": 23,
+        "triangles": 13272,
+        "phase": "playing"
+      },
+      {
+        "fps": 19,
+        "p95Ms": 117,
+        "calls": 23,
+        "triangles": 13272,
+        "phase": "playing"
+      },
+      {
+        "fps": 30,
+        "p95Ms": 50,
+        "calls": 15,
+        "triangles": 5560,
+        "phase": "playing"
+      },
+      {
+        "fps": 30,
+        "p95Ms": 33,
+        "calls": 15,
+        "triangles": 5560,
+        "phase": "playing"
+      }
+    ],
+    "finalSoloRenderer": {
+      "engine": "PlayCanvas",
+      "engineVersion": "2.23.3",
+      "preset": "ultraLow",
+      "activeQuality": "ultraLow",
+      "requestedQuality": "ultraLow",
+      "width": 800,
+      "height": 450,
+      "calls": 23,
+      "triangles": 13272,
+      "visibleChunks": 7,
+      "frameEMA": 33.28308352205714,
+      "renderedFrames": 545,
+      "fpsLimit": 30,
+      "renderScale": 0.625,
+      "basket": {
+        "handleY": 1.4,
+        "gridBottomY": 0.49,
+        "gridTopY": 1.24,
+        "groundAnchored": true
+      },
+      "flashlightActive": true,
+      "blackout": false
+    },
+    "physicalOldHardware": "not-tested"
+  },
+  "network": {
+    "relayBrowserVerified": true,
+    "eightClientNodeTestVerified": true,
+    "directWebRTC": "unverified: managed Chromium exposes no shareable ICE candidates",
+    "crossNetworkProduction": "not-tested",
+    "publicDeployment": "not-performed",
+    "probeReport": "artifacts/rtc-smoke.json"
+  },
+  "reusableCloudConfig": {
+    "install_script": "saved",
+    "start_skill": "saved",
+    "publication": "pending user review and publish"
+  },
+  "bundleSha256": "c8cb3df8a163990232335cb84e0133b0b0904e216762b5f86c0bfd408a3a3165"
+}

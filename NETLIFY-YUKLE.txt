@@ -1,0 +1,65 @@
+ÖNEMLİ — BU ÇALIŞMA KOPYASI PLAYCANVAS SÜRÜMÜDÜR
+
+Aşağıdaki metin önceki statik sürümün arşiv bilgisidir. Yeni sürümde:
+
+1. Node.js 24 kurulu bir sunucuda npm ci, npm run build, npm start çalıştırın.
+2. Oda/sinyal/aktarım için WebSocket destekli HTTPS sunucusu gerekir.
+3. Netlify'a klasör bırakmak yeni oda sunucusunu çalıştırmaz.
+4. Ayrıntılar README.md ve docs/MULTIPLAYER.md içindedir.
+
+------- ÖNCEKİ STATİK SÜRÜM BELGESİ -------
+SON KORİDOR 1.4 — HAZIR OYUN
+
+NETLIFY'E YÜKLE
+1. ZIP dosyasının tamamını çıkart.
+2. index.html'nin bulunduğu oyun klasörünü Netlify'in yükleme alanına bırak.
+3. Verilen site bağlantısını aç. Oyun menüsü gelir.
+4. Bir kişi ODA OLUŞTUR'u seçer, 2–8 kişi sınırını belirler.
+5. Arkadaşı aynı siteyi açıp 5 haneli kodu yazar.
+6. Oda sahibi geceyi başlatır.
+
+index.html tek başına başka bir yere taşınmamalı. JavaScript, CSS, sesler
+ve modeller aynı pakette ayrı dosyalardadır. Netlify klasör yükler.
+Node.js, terminal, Netlify Functions veya anahtar kurulumu gerekmiyor.
+
+BİLGİSAYARDA AÇ
+Oyun klasöründeki index.html dosyasına çift tıkla. TEK BAŞINA BAŞLA'yı seç.
+Yerel tek oyunculu mod için internet gerekmez. Çok oyunculu mod internet ister.
+Tarayıcı ses ve fare kilidi için ilk tıklamayı isteyebilir.
+
+ODA BAĞLANTISI
+Netlify oyun dosyalarını sunar. Odayı oluşturan kişinin tarayıcısı ortak
+oyunu yönetir. PeerJS'in hazır eşleşme hizmeti oyuncuları buluşturur;
+oyun verileri WebRTC ile aktarılır. Oda sahibi oyunu açık tutmalıdır.
+Oda sahibi çıkarsa oda kapanır; yeni oda oluşturulabilir.
+Herkes aynı Netlify adresini kullanmalı.
+Bazı iş/okul/mobil ağlarında doğrudan WebRTC bağlantısı kurulamayabilir.
+Bu sürüm TURN aktarıcısı içermez; böyle bir ağda başka bağlantı dene.
+
+TUŞLAR
+WASD hareket · Fare bakış · SHIFT koş · C sessiz yürü · E ürün al
+F fener · M harita · ESC menü
+
+HTML giriş dosyasıdır; oyun mantığı ayrı, küçültülmüş JavaScript dosyasındadır.
+Tarayıcının indirdiği kod ve varlıklar görülebilir. Bu statik sürümde
+ortak oyun motoru da oda sahibinin tarayıcısında çalışır ve gizli değildir.
+
+OYUN DÖNGÜSÜ
+Herkes kendi listesindeki ürünleri kendi sepetine toplar. İlk gece ekip toplamı:
+1 kişi 6 · 2 kişi 10 · 3 kişi 14 · 4 kişi 18 (her ek oyuncu +4).
+Sonraki her gece ekip toplamına 3 ürün eklenir. 10 gece vardır.
+Listeler bitince yaşayan ekip ilk teslimat alanında 10 saniye birlikte kalmalı.
+Alandan biri çıkarsa sayaç başa döner. Gece sonunda kim kaç ürün topladı görünür.
+
+LOCUST
+Koşmayı uzaktan duyar; normal yürüyüş çok az ses çıkarır, C ile daha da sessizsin.
+Görüşü kısa ve öne dönüktür. Kovalamacada yürüyenden hızlı, koşandan yavaştır.
+Raf devirmesi kovalamacada yolu gerçekten tıkanırsa olabilir; gece başına en fazla 1.
+Yakaladığı oyuncuyu tutar, kaldırır, saldırır ve yana fırlatır. Can kaybı ve
+başlangıca dönüş 4,3 saniyelik animasyondan sonra olur.
+
+DOĞRULAMA
+İki istemci gerçek WebRTC veri kanalında kodla katıldı; farklı 5'er kişisel ürün,
+yakalama/saldırı/yeniden doğma, 10 saniyelik teslimat ve 5/5 katkı tablosu sınandı.
+Bu ağ testi aynı ağda kontrollü oyun durumları kullanır; farklı ev bağlantılarıyla
+üretim testi yapılmadı. Görsel ve akıcılık kontrolleri yerel HTTP önizlemesinde yapılır.

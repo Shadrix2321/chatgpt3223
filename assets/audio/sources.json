@@ -1,0 +1,92 @@
+[
+  {
+    "id": "footstep1",
+    "filename": "footstep1.mp3",
+    "source_page": "https://tuna.voicemod.net/sound/146921bf-e50f-4d61-be28-e54185586916",
+    "source_file": "https://us-tuna-sounds-files.voicemod.net/146921bf-e50f-4d61-be28-e54185586916-1770935552959.mp3",
+    "bytes": 8064,
+    "license": "unknown",
+    "note": "Community uploaded audio. Aisles Of The Locust exact asset match unverified.",
+    "duration_seconds": 0.504,
+    "codec": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  },
+  {
+    "id": "footstep2",
+    "filename": "footstep2.mp3",
+    "source_page": "https://tuna.voicemod.net/sound/950c90db-8eb7-41dc-aec8-d17f2a13449c",
+    "source_file": "https://us-tuna-sounds-files.voicemod.net/950c90db-8eb7-41dc-aec8-d17f2a13449c-1770935590851.mp3",
+    "bytes": 8064,
+    "license": "unknown",
+    "note": "Community uploaded audio. Aisles Of The Locust exact asset match unverified.",
+    "duration_seconds": 0.504,
+    "codec": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  },
+  {
+    "id": "footstep3",
+    "filename": "footstep3.mp3",
+    "source_page": "https://tuna.voicemod.net/sound/3f0bbf94-c6b5-46fa-a23a-d0022a439c72",
+    "source_file": "https://us-tuna-sounds-files.voicemod.net/3f0bbf94-c6b5-46fa-a23a-d0022a439c72-1770935631388.mp3",
+    "bytes": 8064,
+    "license": "unknown",
+    "note": "Community uploaded audio. Aisles Of The Locust exact asset match unverified.",
+    "duration_seconds": 0.504,
+    "codec": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  },
+  {
+    "id": "footstep4",
+    "filename": "footstep4.mp3",
+    "source_page": "https://tuna.voicemod.net/sound/dc194651-17f0-401c-88ad-06fda8275b39",
+    "source_file": "https://us-tuna-sounds-files.voicemod.net/dc194651-17f0-401c-88ad-06fda8275b39-1770935673841.mp3",
+    "bytes": 8448,
+    "license": "unknown",
+    "note": "Community uploaded audio. Aisles Of The Locust exact asset match unverified.",
+    "duration_seconds": 0.528,
+    "codec": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  },
+  {
+    "id": "alert",
+    "filename": "alert.mp3",
+    "source_page": "https://tuna.voicemod.net/sound/7e28bd67-95c5-4320-ac3b-201b174d7993",
+    "source_file": "https://us-tuna-sounds-files.voicemod.net/7e28bd67-95c5-4320-ac3b-201b174d7993-1791123129502.mp3",
+    "bytes": 47661,
+    "license": "unknown",
+    "note": "Community uploaded audio. Aisles Of The Locust exact asset match unverified.",
+    "duration_seconds": 2.976,
+    "codec": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  },
+  {
+    "id": "jumpscare",
+    "filename": "jumpscare.mp3",
+    "source_page": "https://tuna.voicemod.net/sound/e8702738-a636-454b-ae1b-5a409a6e0edc",
+    "source_file": "https://us-tuna-sounds-files.voicemod.net/e8702738-a636-454b-ae1b-5a409a6e0edc-1770936457182.mp3",
+    "bytes": 77184,
+    "license": "unknown",
+    "note": "Community uploaded audio. Aisles Of The Locust exact asset match unverified.",
+    "duration_seconds": 4.824,
+    "codec": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  }
+]

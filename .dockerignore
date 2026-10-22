@@ -1,0 +1,7 @@
+node_modules
+test-results
+.git
+.env
+tools/legacy-*
+game-2ed016e2e6.js
+assets-local.js

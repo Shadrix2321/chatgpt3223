@@ -1,0 +1,12 @@
+node_modules/
+game-playcanvas.js
+game-playcanvas.js.map
+game-playcanvas.js.LEGAL.txt
+test-results/
+.env
+game-playcanvas.js.br
+game-playcanvas.js.gz
+game.css.br
+game.css.gz
+playcanvas.css.br
+playcanvas.css.gz

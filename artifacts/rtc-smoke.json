@@ -1,0 +1,87 @@
+{
+  "verifiedAt": "2026-10-22T11:04:25.909508+00:00",
+  "test": "network-only real Chromium, two separate browser contexts",
+  "offerAnswerExchange": "passed",
+  "relayJoinStartSync": "passed",
+  "nativeRtc": "unverified_managed_udp_policy_exposes_zero_shareable_ice_candidates",
+  "managedPolicyEvidence": "/etc/chromium/policies/managed/misc.json: WebRtcIPHandling=disable_non_proxied_udp",
+  "before": {
+    "host": {
+      "stats": {
+        "transport": "relay",
+        "rttMs": 5,
+        "peers": [
+          {
+            "id": "e59faec6e7fee867bda98fed4235feee38fc",
+            "transport": "relay",
+            "rttMs": 5,
+            "directReady": false
+          }
+        ],
+        "reconnecting": false
+      },
+      "iceCandidateEvents": 0,
+      "signaledCandidates": 0,
+      "peers": [
+        {
+          "signaling": "stable",
+          "localDescription": "offer",
+          "remoteDescription": "answer",
+          "connection": "new",
+          "iceConnection": "new",
+          "localCandidateCount": 2,
+          "remoteCandidateCount": 0,
+          "shareableLocalCandidateCount": 0,
+          "rtcSamples": 0,
+          "relaySamples": 2
+        }
+      ]
+    },
+    "guest": {
+      "stats": {
+        "transport": "relay",
+        "rttMs": 3,
+        "peers": [
+          {
+            "id": "f32b6e398f31c57721b5e83c2a07f9b0eae2",
+            "transport": "relay",
+            "rttMs": 3.3,
+            "directReady": false
+          }
+        ],
+        "reconnecting": false
+      },
+      "iceCandidateEvents": 0,
+      "signaledCandidates": 0,
+      "peers": [
+        {
+          "signaling": "stable",
+          "localDescription": "answer",
+          "remoteDescription": "offer",
+          "connection": "new",
+          "iceConnection": "new",
+          "localCandidateCount": 2,
+          "remoteCandidateCount": 0,
+          "shareableLocalCandidateCount": 0,
+          "rtcSamples": 0,
+          "relaySamples": 2
+        }
+      ]
+    }
+  },
+  "after": {
+    "transport": "relay",
+    "rttMs": 3,
+    "peers": [
+      {
+        "id": "f32b6e398f31c57721b5e83c2a07f9b0eae2",
+        "transport": "relay",
+        "rttMs": 3.3,
+        "directReady": false
+      }
+    ],
+    "reconnecting": false
+  },
+  "runtimeErrors": [],
+  "productionCrossNetwork": "not tested; no public deployment performed"
+}

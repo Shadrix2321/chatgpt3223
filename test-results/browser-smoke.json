@@ -1,0 +1,326 @@
+{
+  "browser": "Chromium / SwiftShader",
+  "viewport": "1280x720",
+  "checks": [
+    {
+      "name": "Actual PlayCanvas menu loaded",
+      "passed": true
+    },
+    {
+      "name": "Graphics preset high",
+      "passed": true
+    },
+    {
+      "name": "Graphics preset medium",
+      "passed": true
+    },
+    {
+      "name": "Graphics preset low",
+      "passed": true
+    },
+    {
+      "name": "Graphics preset ultraLow",
+      "passed": true
+    },
+    {
+      "name": "Solo personal shopping list",
+      "passed": true
+    },
+    {
+      "name": "Night 01",
+      "passed": true
+    },
+    {
+      "name": "Normal keyboard movement",
+      "passed": true,
+      "meters": 7.69
+    },
+    {
+      "name": "C lowers camera through basket grid",
+      "passed": true,
+      "cameraY": 1.0500000005721335
+    },
+    {
+      "name": "Map keyboard toggle",
+      "passed": true
+    },
+    {
+      "name": "Pause menu opens",
+      "passed": true
+    },
+    {
+      "name": "Graphics preference survives reload",
+      "passed": true
+    },
+    {
+      "name": "Five digit room created",
+      "passed": true
+    },
+    {
+      "name": "Guest joins via relay with WebRTC blocked",
+      "passed": true
+    },
+    {
+      "name": "Two player authoritative night starts",
+      "passed": true
+    },
+    {
+      "name": "Separate personal lists",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "frames": [
+    {
+      "fps": 12,
+      "p95Ms": 333,
+      "calls": 23,
+      "triangles": 13272,
+      "phase": "playing"
+    },
+    {
+      "fps": 19,
+      "p95Ms": 117,
+      "calls": 23,
+      "triangles": 13272,
+      "phase": "playing"
+    },
+    {
+      "fps": 30,
+      "p95Ms": 50,
+      "calls": 15,
+      "triangles": 5560,
+      "phase": "playing"
+    },
+    {
+      "fps": 30,
+      "p95Ms": 33,
+      "calls": 15,
+      "triangles": 5560,
+      "phase": "playing"
+    }
+  ],
+  "errors": [],
+  "solo": {
+    "engine": "PlayCanvas",
+    "phase": "playing",
+    "state": {
+      "code": "92804",
+      "revision": 468,
+      "hostId": "6f2ec052ea2f13374e883314",
+      "maxPlayers": 1,
+      "phase": "playing",
+      "night": 1,
+      "nightStartedAt": 1792667202550,
+      "seed": 67719807,
+      "updatedAt": 1792667223050,
+      "blackout": false,
+      "checkout": {
+        "active": false,
+        "remainingMs": 10000,
+        "durationMs": 10000,
+        "inside": 1,
+        "required": 1
+      },
+      "results": [
+        {
+          "id": "6f2ec052ea2f13374e883314",
+          "name": "Gezgin",
+          "appearance": 0,
+          "collectedNight": 0,
+          "collectedTotal": 0
+        }
+      ],
+      "fallenShelves": [],
+      "items": [
+        {
+          "id": "n1-0",
+          "key": "corn",
+          "label": "Mısır konservesi",
+          "model": "can-small",
+          "x": -76.65,
+          "y": 1,
+          "z": 45.86233900859952,
+          "aisle": 3,
+          "ownerId": "6f2ec052ea2f13374e883314",
+          "collected": false,
+          "collectedBy": null
+        },
+        {
+          "id": "n1-1",
+          "key": "juice",
+          "label": "Meyve suyu",
+          "model": "carton",
+          "x": -67.35,
+          "y": 1.7,
+          "z": 5.412124041467905,
+          "aisle": 4,
+          "ownerId": "6f2ec052ea2f13374e883314",
+          "collected": false,
+          "collectedBy": null
+        },
+        {
+          "id": "n1-2",
+          "key": "orange",
+          "label": "Portakal",
+          "model": "orange",
+          "x": -91.35,
+          "y": 1,
+          "z": 66.54184062033892,
+          "aisle": 2,
+          "ownerId": "6f2ec052ea2f13374e883314",
+          "collected": false,
+          "collectedBy": null
+        },
+        {
+          "id": "n1-3",
+          "key": "honey",
+          "label": "Bal",
+          "model": "honey",
+          "x": -40.65,
+          "y": 1.7,
+          "z": 45.50119857490063,
+          "aisle": 6,
+          "ownerId": "6f2ec052ea2f13374e883314",
+          "collected": false,
+          "collectedBy": null
+        },
+        {
+          "id": "n1-4",
+          "key": "toast",
+          "label": "Tost ekmeği",
+          "model": "loaf",
+          "x": 4.65,
+          "y": 1,
+          "z": -23.20545371249318,
+          "aisle": 10,
+          "ownerId": "6f2ec052ea2f13374e883314",
+          "collected": false,
+          "collectedBy": null
+        },
+        {
+          "id": "n1-5",
+          "key": "milk",
+          "label": "Süt",
+          "model": "carton",
+          "x": -43.35,
+          "y": 1.7,
+          "z": 6.009462233632803,
+          "aisle": 6,
+          "ownerId": "6f2ec052ea2f13374e883314",
+          "collected": false,
+          "collectedBy": null
+        }
+      ],
+      "players": [
+        {
+          "id": "6f2ec052ea2f13374e883314",
+          "name": "Gezgin",
+          "appearance": 0,
+          "collectedNight": 0,
+          "collectedTotal": 0,
+          "captured": false,
+          "captureId": null,
+          "x": -5.756571495477964,
+          "z": 143.74744172017333,
+          "yaw": 0.9847943874669634,
+          "crouch": false,
+          "sprint": false,
+          "moving": false,
+          "noise": 0,
+          "stamina": 100,
+          "lives": 3,
+          "online": true
+        }
+      ],
+      "locust": {
+        "x": -10.436953934871706,
+        "z": 123.48431679430605,
+        "yaw": 4.639936672316569,
+        "state": "patrol",
+        "targetId": null,
+        "capture": null,
+        "distanceWalked": 65.38421533970526,
+        "moving": true,
+        "speed": 3.500000000000005,
+        "vx": -3.490817678160234,
+        "vz": -0.2533612792911063,
+        "smashedAt": 0
+      },
+      "events": []
+    },
+    "position": {
+      "x": -5.756571495477964,
+      "z": 143.74744172017333
+    },
+    "crouch": false,
+    "cameraY": 1.72,
+    "fps": 30,
+    "renderer": {
+      "engine": "PlayCanvas",
+      "engineVersion": "2.23.3",
+      "preset": "ultraLow",
+      "activeQuality": "ultraLow",
+      "requestedQuality": "ultraLow",
+      "width": 800,
+      "height": 450,
+      "calls": 23,
+      "triangles": 13272,
+      "visibleChunks": 7,
+      "frameEMA": 33.28308352205714,
+      "renderedFrames": 545,
+      "fpsLimit": 30,
+      "renderScale": 0.625,
+      "basket": {
+        "handleY": 1.4,
+        "gridBottomY": 0.49,
+        "gridTopY": 1.24,
+        "groundAnchored": true
+      },
+      "flashlightActive": true,
+      "blackout": false
+    },
+    "draw": {
+      "calls": 23,
+      "triangles": 13272
+    },
+    "network": {
+      "transport": "local",
+      "rttMs": 0,
+      "peers": []
+    },
+    "quality": "ultraLow"
+  },
+  "relay": {
+    "host": {
+      "transport": "relay",
+      "rttMs": 11,
+      "peers": [
+        {
+          "id": "d15e37898e47aee8c979d22ea8902043f190",
+          "transport": "relay",
+          "rttMs": 11,
+          "directReady": false
+        }
+      ],
+      "reconnecting": false
+    },
+    "guest": {
+      "transport": "relay",
+      "rttMs": 5,
+      "peers": [
+        {
+          "id": "3a18a12e10df4f356cbe39fe10e6d53afcde",
+          "transport": "relay",
+          "rttMs": 5.1,
+          "directReady": false
+        }
+      ],
+      "reconnecting": false
+    }
+  }
+}
